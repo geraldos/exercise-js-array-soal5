@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Tweet</title>
+    <style>
+        .button {
+            background-color: #2591ac;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div class="container">
+        <div>
+            <h1 class="title">Create Tweet</h1>
+            <textarea id="input" rows="6" cols="30" placeholder="Type your tweet..."></textarea>
+            <button class="button" type="button" onclick="tweet()">Tweet</button>
+        </div>
+        <div class="detail-information">
+            <h1 class="isi">Your Tweet</h1>
+            <div id="transbox">
+                <p></p>
+            </div>
+        </div>
+
+        <script src="./function.js"></script>
+</body>
+
+</html>
